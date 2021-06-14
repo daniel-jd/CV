@@ -71,7 +71,6 @@
 				A55816A62662AC970041746D /* AppDelegate.swift */,
 				A55816A82662AC980041746D /* SceneDelegate.swift */,
 				A55816AC2662AC980041746D /* Main.storyboard */,
-				A55816AA2662AC980041746D /* CVViewController.swift */,
 				A5EAB6F02673358B00F6ED05 /* CV */,
 				A55816AF2662AC9B0041746D /* Assets.xcassets */,
 				A55816B12662AC9B0041746D /* LaunchScreen.storyboard */,
@@ -83,6 +82,7 @@
 		A5EAB6F02673358B00F6ED05 /* CV */ = {
 			isa = PBXGroup;
 			children = (
+				A55816AA2662AC980041746D /* CVViewController.swift */,
 				A5EAB6F8267335E900F6ED05 /* Cells */,
 			);
 			path = CV;
