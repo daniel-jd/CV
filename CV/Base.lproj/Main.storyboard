@@ -155,7 +155,7 @@
                                     <constraint firstAttribute="height" constant="68" id="OXB-1g-xFW"/>
                                 </constraints>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="qvv-rj-EvW" userLabel="Swift-Git Stack View">
+                            <stackView opaque="NO" alpha="0.0" contentMode="scaleToFill" alignment="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="qvv-rj-EvW" userLabel="Swift-Git Stack View">
                                 <rect key="frame" x="85" y="637.5" width="145" height="89.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="3B6-UG-Bd1" userLabel="Swift Stack View">

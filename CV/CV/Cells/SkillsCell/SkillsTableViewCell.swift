@@ -1,14 +1,14 @@
 //
-//  TopTableViewCell.swift
+//  SkillsTableViewCell.swift
 //  CV
 //
-//  Created by Daniel Yamrak on 11.06.2021.
+//  Created by Daniel Yamrak on 15.06.2021.
 //
 
 import UIKit
 
-class TopTableViewCell: UITableViewCell {
-    
+class SkillsTableViewCell: UITableViewCell {
+
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -18,14 +18,6 @@ class TopTableViewCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
-    }
-    
-    func configure() {
-        
-        // FIX THIS
-        let radius = 50.0
-        imageView?.layer.cornerRadius = CGFloat(radius)
-        imageView?.clipsToBounds = true
     }
     
 }

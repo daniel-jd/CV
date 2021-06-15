@@ -17,17 +17,17 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="PXn-ge-2C7" userLabel="Avatar Stack View">
-                        <rect key="frame" x="83" y="51" width="154" height="201"/>
+                        <rect key="frame" x="77.5" y="51" width="165" height="201"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon.myimg" translatesAutoresizingMaskIntoConstraints="NO" id="eQ8-9p-aGp">
-                                <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar" translatesAutoresizingMaskIntoConstraints="NO" id="eQ8-9p-aGp">
+                                <rect key="frame" x="5.5" y="0.0" width="154" height="154"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="154" id="9fQ-jF-TZq"/>
                                     <constraint firstAttribute="width" constant="154" id="lAy-Du-ca2"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.85000002384185791" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="John Doe" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lmW-UV-L8x">
-                                <rect key="frame" x="22.5" y="174" width="109.5" height="27"/>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.85000002384185791" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Daniel Yarmak" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lmW-UV-L8x">
+                                <rect key="frame" x="0.0" y="174" width="165" height="27"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="27" id="W7V-yi-aV1"/>
                                 </constraints>
@@ -48,6 +48,6 @@
         </tableViewCell>
     </objects>
     <resources>
-        <image name="icon.myimg" width="154" height="154"/>
+        <image name="avatar" width="300" height="300"/>
     </resources>
 </document>

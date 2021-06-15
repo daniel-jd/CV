@@ -13,6 +13,8 @@
 		A55816AE2662AC980041746D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A55816AC2662AC980041746D /* Main.storyboard */; };
 		A55816B02662AC9B0041746D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A55816AF2662AC9B0041746D /* Assets.xcassets */; };
 		A55816B32662AC9B0041746D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A55816B12662AC9B0041746D /* LaunchScreen.storyboard */; };
+		A5E7E30826788B8B008A49ED /* SkillsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E7E30626788B8B008A49ED /* SkillsTableViewCell.swift */; };
+		A5E7E30926788B8B008A49ED /* SkillsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5E7E30726788B8B008A49ED /* SkillsTableViewCell.xib */; };
 		A5EAB6F3267335CD00F6ED05 /* TopTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EAB6F1267335CD00F6ED05 /* TopTableViewCell.swift */; };
 		A5EAB6F4267335CD00F6ED05 /* TopTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5EAB6F2267335CD00F6ED05 /* TopTableViewCell.xib */; };
 		A5EAB6FC2673360900F6ED05 /* SectionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EAB6FA2673360900F6ED05 /* SectionsTableViewCell.swift */; };
@@ -30,6 +32,8 @@
 		A55816AF2662AC9B0041746D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A55816B22662AC9B0041746D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A55816B42662AC9B0041746D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5E7E30626788B8B008A49ED /* SkillsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsTableViewCell.swift; sourceTree = "<group>"; };
+		A5E7E30726788B8B008A49ED /* SkillsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SkillsTableViewCell.xib; sourceTree = "<group>"; };
 		A5EAB6F1267335CD00F6ED05 /* TopTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTableViewCell.swift; sourceTree = "<group>"; };
 		A5EAB6F2267335CD00F6ED05 /* TopTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopTableViewCell.xib; sourceTree = "<group>"; };
 		A5EAB6FA2673360900F6ED05 /* SectionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionsTableViewCell.swift; sourceTree = "<group>"; };
@@ -79,6 +83,15 @@
 			path = CV;
 			sourceTree = "<group>";
 		};
+		A5E7E30B26788B97008A49ED /* SkillsCell */ = {
+			isa = PBXGroup;
+			children = (
+				A5E7E30626788B8B008A49ED /* SkillsTableViewCell.swift */,
+				A5E7E30726788B8B008A49ED /* SkillsTableViewCell.xib */,
+			);
+			path = SkillsCell;
+			sourceTree = "<group>";
+		};
 		A5EAB6F02673358B00F6ED05 /* CV */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +116,7 @@
 				A5EAB6F6267335DA00F6ED05 /* TopCell */,
 				A5EAB6FF2673360D00F6ED05 /* SectionCell */,
 				A5EAB7062673362C00F6ED05 /* JobsCell */,
+				A5E7E30B26788B97008A49ED /* SkillsCell */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -186,6 +200,7 @@
 				A5EAB7032673362800F6ED05 /* JobsTableViewCell.xib in Resources */,
 				A55816B32662AC9B0041746D /* LaunchScreen.storyboard in Resources */,
 				A55816B02662AC9B0041746D /* Assets.xcassets in Resources */,
+				A5E7E30926788B8B008A49ED /* SkillsTableViewCell.xib in Resources */,
 				A55816AE2662AC980041746D /* Main.storyboard in Resources */,
 				A5EAB6F4267335CD00F6ED05 /* TopTableViewCell.xib in Resources */,
 			);
@@ -201,6 +216,7 @@
 				A55816AB2662AC980041746D /* CVViewController.swift in Sources */,
 				A55816A72662AC980041746D /* AppDelegate.swift in Sources */,
 				A55816A92662AC980041746D /* SceneDelegate.swift in Sources */,
+				A5E7E30826788B8B008A49ED /* SkillsTableViewCell.swift in Sources */,
 				A5EAB7022673362800F6ED05 /* JobsTableViewCell.swift in Sources */,
 				A5EAB6FC2673360900F6ED05 /* SectionsTableViewCell.swift in Sources */,
 				A5EAB6F3267335CD00F6ED05 /* TopTableViewCell.swift in Sources */,
