@@ -45,12 +45,12 @@
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0Hj-po-d8B">
                                                         <rect key="frame" x="0.0" y="-0.5" width="19.5" height="16"/>
                                                         <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <imageReference key="image" image="star" catalog="system" symbolScale="default"/>
+                                                        <imageReference key="image" image="star.fill" catalog="system" symbolScale="default"/>
                                                     </imageView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4aP-Ou-hc8">
                                                         <rect key="frame" x="20.5" y="-0.5" width="19" height="16"/>
                                                         <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <imageReference key="image" image="star" catalog="system" symbolScale="default"/>
+                                                        <imageReference key="image" image="star.fill" catalog="system" symbolScale="default"/>
                                                     </imageView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Bku-OB-KJd">
                                                         <rect key="frame" x="40.5" y="-0.5" width="19.5" height="16"/>
@@ -92,12 +92,12 @@
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dsa-fx-1JJ">
                                                         <rect key="frame" x="0.0" y="-0.5" width="19.5" height="16"/>
                                                         <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <imageReference key="image" image="star" catalog="system" symbolScale="default"/>
+                                                        <imageReference key="image" image="star.fill" catalog="system" symbolScale="default"/>
                                                     </imageView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tfH-gk-sBm">
                                                         <rect key="frame" x="20.5" y="-0.5" width="19" height="16"/>
                                                         <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <imageReference key="image" image="star" catalog="system" symbolScale="default"/>
+                                                        <imageReference key="image" image="star.leadinghalf.fill" catalog="system" symbolScale="default"/>
                                                     </imageView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="WRS-bY-CS1">
                                                         <rect key="frame" x="40.5" y="-0.5" width="19.5" height="16"/>
@@ -133,5 +133,7 @@
         <image name="icon.git" width="56" height="56"/>
         <image name="icon.swift" width="56" height="56"/>
         <image name="star" catalog="system" width="128" height="116"/>
+        <image name="star.fill" catalog="system" width="128" height="116"/>
+        <image name="star.leadinghalf.fill" catalog="system" width="128" height="116"/>
     </resources>
 </document>

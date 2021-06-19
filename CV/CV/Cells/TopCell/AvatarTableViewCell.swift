@@ -7,7 +7,11 @@
 
 import UIKit
 
-class TopTableViewCell: UITableViewCell {
+class AvatarTableViewCell: UITableViewCell {
+    
+    
+    @IBOutlet weak var avatarImageView: UIImageView!
+    
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -21,11 +25,8 @@ class TopTableViewCell: UITableViewCell {
     }
     
     func configure() {
-        
-        // FIX THIS
-        let radius = 50.0
-        imageView?.layer.cornerRadius = CGFloat(radius)
-        imageView?.clipsToBounds = true
+        avatarImageView.layer.cornerRadius = avatarImageView.frame.width / 2
+        //avatarImageView.clipsToBounds = true
     }
     
 }

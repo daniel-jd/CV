@@ -9,6 +9,11 @@ import UIKit
 
 class JobsTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var yearsLabel: UILabel!
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var descrLabel: UILabel!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -18,6 +23,12 @@ class JobsTableViewCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
+    }
+    
+    func configure(with job: Job) {
+        yearsLabel.text = job.years
+        titleLabel.text = job.title
+        descrLabel.text = job.descr
     }
     
 }
